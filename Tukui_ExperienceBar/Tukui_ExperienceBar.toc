@@ -1,0 +1,9 @@
+## Interface: 40000
+## Author: Safturento
+## Version: 1.0
+## Title: Tukui ExperienceBar
+## Notes: Minimalist experience & reputation bar
+## OptionalDeps: Tukui
+
+Tukui_ExperienceBar.lua
+
