@@ -149,7 +149,7 @@ if TukuiCF["datatext"].wowtime and TukuiCF["datatext"].wowtime > 0 then
 		end
 		if extended then tr,tg,tb = 0.3,1,0.3 else tr,tg,tb = 1,1,1 end
 		if difficulty == 3 or difficulty == 4 then diff = "H" else diff = "N" end
-		GameTooltip:AddDoubleLine(format("%s |cffaaaaaa(%s%s)",name,maxPlayers,diff),fmttime(reset),1,1,1,tr,tg,tb)
+		GameTooltip:AddDoubleLine(name,fmttime(reset),1,1,1,tr,tg,tb)
 		end
 		end
 		GameTooltip:Show()

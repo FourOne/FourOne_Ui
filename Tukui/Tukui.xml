@@ -42,7 +42,6 @@
 	<Script file="modules\gm.lua"/>
 	<Script file="modules\commands.lua"/>
 	<Script file="modules\quests.lua"/>
-	<Script file="modules\mount.lua"/>
 	<Script file="modules\invite.lua"/>
 	<Script file="modules\autodez.lua"/>
 	<Script file="modules\autorelease.lua"/>
@@ -51,7 +50,6 @@
 	<Script file="modules\error.lua"/>
 	<Script file="modules\bind.lua"/>
 	<Script file="modules\copyurl.lua"/>
-	<Script file="modules\hyperlink.lua"/>
 	<Script file="modules\item.lua"/>
 	<Script file="modules\kill.lua"/>
 	<Script file="modules\spam.lua"/>

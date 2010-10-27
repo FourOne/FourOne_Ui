@@ -14,7 +14,7 @@ if TukuiCF["datatext"].currency and TukuiCF["datatext"].currency > 0 then
 	
 	local function update()
 		local _text = "---"
-		for i = 1, GetNumWatchedTokens() do
+		for i = 1, MAX_WATCHED_TOKENS do
 			local name, count, _, _, _ = GetBackpackCurrencyInfo(i)
 			if name and count then
 				if(i ~= 1) then _text = _text .. " " else _text = "" end

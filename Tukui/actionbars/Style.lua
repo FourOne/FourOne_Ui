@@ -28,8 +28,8 @@ function style(self)
 	Border = TukuiDB.dummy
  
 	Count:ClearAllPoints()
-	Count:SetPoint("BOTTOMLEFT", 0, TukuiDB.Scale(2))
-	Count:SetFont(TukuiCF["media"].uffont, 12, "OUTLINE")
+	Count:SetPoint("BOTTOMRIGHT", 0, TukuiDB.Scale(2))
+	Count:SetFont(TukuiCF["media"].font, 12, "OUTLINE")
  
 	Btname:SetText("")
 	Btname:Hide()
@@ -52,7 +52,7 @@ function style(self)
 
 	HotKey:ClearAllPoints()
 	HotKey:SetPoint("TOPRIGHT", 0, TukuiDB.Scale(-3))
-	HotKey:SetFont(TukuiCF["media"].uffont, 12, "OUTLINE")
+	HotKey:SetFont(TukuiCF["media"].font, 12, "OUTLINE")
 	HotKey.ClearAllPoints = TukuiDB.dummy
 	HotKey.SetPoint = TukuiDB.dummy
  

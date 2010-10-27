@@ -18,18 +18,18 @@ end)
 --------------------------------------------------------------------------
 
 local function VehicleNumSeatIndicator()
-	if VehicleSeatIndicatorButton1 then
-		TukuiDB.numSeat = 1
-	elseif VehicleSeatIndicatorButton2 then
-		TukuiDB.numSeat = 2
-	elseif VehicleSeatIndicatorButton3 then
-		TukuiDB.numseat = 3
-	elseif VehicleSeatIndicatorButton4 then
-		TukuiDB.numSeat = 4
+	if VehicleSeatIndicatorButton6 then
+		TukuiDB.numSeat = 6
 	elseif VehicleSeatIndicatorButton5 then
 		TukuiDB.numSeat = 5
-	elseif VehicleSeatIndicatorButton6 then
-		TukuiDB.numSeat = 6
+	elseif VehicleSeatIndicatorButton4 then
+		TukuiDB.numseat = 4
+	elseif VehicleSeatIndicatorButton3 then
+		TukuiDB.numSeat = 3
+	elseif VehicleSeatIndicatorButton2 then
+		TukuiDB.numSeat = 2
+	elseif VehicleSeatIndicatorButton1 then
+		TukuiDB.numSeat = 1
 	end
 end
 

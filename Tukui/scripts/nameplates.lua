@@ -6,9 +6,7 @@ local tNamePlates = CreateFrame("Frame", nil, UIParent)
 tNamePlates:SetScript("OnEvent", function(self, event, ...) self[event](self, ...) end)
 
 -- SETTING TO 1 TO TEMPORALY FIX BLIZZARD NAMEPLATE BUG SHIT
-SetCVar("bloatthreat", 0) -- stop resizing nameplate according to threat level.
-SetCVar("bloattest", 1)
---SetCVar("spreadnameplates", "0")
+SetCVar("bloatthreat", 0) -- 0 = stop resizing nameplate according to threat level.
 
 local barTexture = TukuiCF["media"].normTex
 local overlayTexture = [=[Interface\Tooltips\Nameplate-Border]=]
